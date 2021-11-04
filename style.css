@@ -1,0 +1,55 @@
+body {
+  background: linear-gradient(90deg, #3D2AA4, #E5A7F2);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Amatic SC', cursive;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-size: 25px;
+}
+
+p {
+  margin: 0;
+}
+
+button {
+  font-family: 'Amatic SC', cursive;
+  font-size: 30px;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 30px;
+  margin: 60px 10px;
+  width: 200px;
+}
+
+button:hover {
+  color: #3D2AA4;
+  box-shadow: 1px 1px 8px #3D2AA4;
+}
+
+button:active {
+  color: #E5A7F2;
+}
+
+.size-1 {
+  font-size: 50px;
+  margin: 80px 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 500px) {
+  div {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+  }
+  button {
+    margin: 10px;
+  }
+}
